@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #ff4d6d, #ffb3c6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 40px;
+  border-radius: 30px;
+  text-align: center;
+  box-shadow: 0 0 30px rgba(255, 0, 80, 0.4);
+  color: white;
+  width: 90%;
+  max-width: 420px;
+}
+
+h1 {
+  font-size: 2.2rem;
+}
+
+p {
+  font-size: 1.2rem;
+  margin: 15px 0;
+}
+
+.hearts {
+  font-size: 2rem;
+  margin: 20px 0;
+}
+
+.btn, button {
+  background: #ff1e56;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 50px;
+  border: none;
+  text-decoration: none;
+  font-size: 1.1rem;
+  cursor: pointer;
+  display: inline-block;
+  margin: 10px;
+}
+
+button:hover, .btn:hover {
+  transform: scale(1.1);
+}
+
+.buttons {
+  position: relative;
+  height: 120px;
+}
